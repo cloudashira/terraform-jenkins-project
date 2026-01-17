@@ -22,7 +22,7 @@ resource "aws_instance" "demo" {
   subnet_id     = "subnet-02bed3b0353321c9f"  # <- quotes added
 
   tags = {
-    Name = "Jenkins-Terraform-EC2"
+    Name = "ashira"
   }
 }
 
