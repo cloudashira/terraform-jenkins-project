@@ -18,7 +18,7 @@ data "aws_subnets" "jenkins" {
 # EC2 instance
 resource "aws_instance" "demo" {
   ami           = "ami-0f5ee92e2d63afc18"
-  instance_type = "t2.micro"
+  instance_type = "t3.micro"
   subnet_id     = "subnet-02bed3b0353321c9f"  # <- quotes added
 
   tags = {
